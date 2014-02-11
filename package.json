@@ -1,6 +1,6 @@
 {
   "name": "then-yield",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Promise based generators with no dependency on a specific promise lib",
   "keywords": [],
   "dependencies": {},
