@@ -1,0 +1,20 @@
+{
+  "name": "then-yield",
+  "version": "0.0.0",
+  "description": "Promise based generators with no dependency on a specific promise lib",
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "promise": "~3.2.0",
+    "gnode": "0.0.6"
+  },
+  "scripts": {
+    "test": "gnode test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/then/yield.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}
