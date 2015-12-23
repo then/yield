@@ -10,8 +10,8 @@ var ty = require('then-yield').using(Promise.cast);
 
 The goal is to be performant and to ensure that it is as versatile as possible while maintaining a simple interface.  You can use `yield` to wait for a `Promise`, an `Array.<Promise>`.  It also allows you to `yield` a `Generator` (the result of calling a `GeneratorFunction`) but it is preferable to wrap each generator function in `async` or use `yield*`.
 
-[![Build Status](https://travis-ci.org/then/yield.png?branch=master)](https://travis-ci.org/then/yield)
-[![Dependency Status](https://gemnasium.com/then/yield.png)](https://gemnasium.com/then/yield)
+[![Build Status](https://img.shields.io/travis/then/yield/master.svg)](https://travis-ci.org/then/yield)
+[![Dependency Status](https://img.shields.io/david/then/yield.svg)](https://david-dm.org/then/yield)
 [![NPM version](https://badge.fury.io/js/then-yield.png)](http://badge.fury.io/js/then-yield)
 
 ## Installation
